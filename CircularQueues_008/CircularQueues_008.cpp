@@ -98,4 +98,17 @@ public:
 	}
 };
 
-			
+int main() {
+	Queues q;
+	char ch;
+
+	while (true) {
+		try {
+			cout << "Menu" << endl;
+			cout << "1. Implementasi insert operation" << endl;
+			cout << "2. Implementasi delete operation" << endl;
+			cout << "3. Display balues" << endl;
+			cout << "4. Exit" << endl;
+			cout << "Enter your choise (1-4): ";
+			cin >> ch;
+			cout << endl;
